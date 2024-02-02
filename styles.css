@@ -1,0 +1,103 @@
+.image-container {
+    background-color: #efeff1;
+}
+
+.WG-image {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Garten-image {
+    max-width: 40%;
+    height: auto;
+    display: block;
+    margin-top: 4rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 4rem;
+}
+
+.video-container {
+    position: relative;
+    width: 50%;
+    padding-top: 70%;
+    margin-bottom: 1rem;
+}
+
+.video-container video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/* Additional styling if needed */
+.video-height {
+    max-height: 100%; /* Ensure the video doesn't exceed its container */
+}
+
+.map-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh; /* Set the height to 100% of the viewport height */
+}
+
+/* Style the map container */
+.map-container iframe {
+    width: 80%; /* Adjust the width based on your preference */
+    height: 90%; /* Adjust the height based on your preference */
+    border: 0;
+}
+
+.bottom-container {
+    background-color: #8d969f;
+    padding: 50px 0 20px;
+    text-align: center;
+}
+
+.copyright {
+    font-size: 1.3rem;
+}
+
+h1 {
+    font-size: 3rem; 
+}
+
+h2 {
+    font-size: 2rem; 
+}
+
+@media (min-width: 768px) {
+    h1 {
+        font-size: 5rem;
+    }
+
+    h2 {
+        font-size: 4rem; 
+    }
+}
+
+@media (min-width: 992px) {
+    h1 {
+        font-size: 7rem;
+    }
+
+    h2 {
+        font-size: 5rem; 
+    }
+}
+
+@media (min-width: 1200px) {
+    .h1 {
+        font-size: 10rem;
+    }
+
+    h2 {
+        font-size: 6dvb; 
+    }
+}
